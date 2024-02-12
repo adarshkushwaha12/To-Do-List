@@ -1,0 +1,39 @@
+body {
+  font-family: cursive;
+  background-color: #00ffff;
+  text-align: center;
+  margin: 100px;
+}
+
+#todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+ 
+
+}
+
+#todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  color: #fff;
+  border:10%;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+
